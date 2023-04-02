@@ -1,11 +1,8 @@
-class Node
-{
+#pragma once
 
-public:
-    Node();
-    void draw();
-    int data;
-};
+/**
+ * Base DataStructure class
+ */
 
 class DataStructure
 {

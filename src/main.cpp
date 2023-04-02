@@ -2,14 +2,9 @@
 
 int main(int argc, char *argv[])
 {
-
-    // Create application instance
     Application application = Application(600, 500);
-
-    // run application
     application.run();
-
-    // destory application instance
+    application.close();
 
     return 0;
 }

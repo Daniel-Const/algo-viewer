@@ -1,6 +1,10 @@
 #include <string>
 #include "./data_structure.h"
 
+/**
+ *  Base Algorithm class
+ */
+
 class Algorithm
 {
 

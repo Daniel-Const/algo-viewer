@@ -10,12 +10,16 @@ add_executable(algo-viewer
     src/main.cpp
     src/algorithm.cpp
     src/application.cpp
+    src/binary_search.cpp
+    src/array.cpp
     # src/data_structure.cpp
 
     # headers
     include/algorithm.h
     include/application.h
     include/data_structure.h
+    include/binary_search.h
+    include/array.h
 )
 
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
